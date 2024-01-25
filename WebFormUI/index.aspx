@@ -17,17 +17,36 @@ Inherits="WebFormsControlls.WebControls" %>
         <asp:Button ID="button1" runat="server" Text="Submit" OnClick="Button1_Click"/>
         <asp:Label runat="server" ID="genderId"></asp:Label>
         <br />
-        
+        <h1>Calender</h1>
+        <div>
+            <asp:Calendar ID="Calendar1" runat="server"  OnSelectionChanged="Calendar1_SelectionChanged">
+            </asp:Calendar>
+
+        </div>
+        <h1>CheckBox</h1>
+        <div>
+            <asp:CheckBox ID="CheckBox1" runat="server" Text="J2SE" />
+            <asp:CheckBox ID="CheckBox2" runat="server" Text="J2EE" />
+            <asp:CheckBox ID="CheckBox3" runat="server" Text="Spring" />
+        </div>
+        <p>
+            <asp:Button ID="Button2" runat="server" Text="Button" OnClick="Button2_Click" />
+        </p>
+        <h1>Its is a Hyperlink style button</h1>
+        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">ClickHereHyperlink</asp:LinkButton>
     </form>
     <asp:Label runat="server">HyperReference</asp:Label>
+    <asp:Label runat="server" ID="ShowDate"></asp:Label>
+    <p>
+        Courses Selected:<asp:Label runat="server" ID="ShowCourses" />
+    </p>
     <div>
         <asp:HyperLink runat="server" Text="Java" NavigateUrl="~/Home.aspx"></asp:HyperLink>
     </div>       
-    
-    
-    
-    
+   
+    <p>
+        <asp:Label ID="Label1" runat="server" ></asp:Label>
+    </p>
 
-    
 </body>
 </html>
