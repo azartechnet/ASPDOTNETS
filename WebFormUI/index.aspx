@@ -34,6 +34,13 @@ Inherits="WebFormsControlls.WebControls" %>
         </p>
         <h1>Its is a Hyperlink style button</h1>
         <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">ClickHereHyperlink</asp:LinkButton>
+        <h1>FileUploaded</h1>
+        <asp:FileUpload ID="FileUpload1" runat="server" AllowMultiple="true"/>
+        <asp:Button ID="Button3" runat="server" Text="Upload File" OnClick="Button3_Click" />
+        <h1>FileDownloaded</h1>
+        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Download" />
+        <br />
+        <asp:Label ID="Label4" runat="server"></asp:Label>
     </form>
     <asp:Label runat="server">HyperReference</asp:Label>
     <asp:Label runat="server" ID="ShowDate"></asp:Label>
@@ -47,6 +54,9 @@ Inherits="WebFormsControlls.WebControls" %>
     <p>
         <asp:Label ID="Label1" runat="server" ></asp:Label>
     </p>
+    <p>
+        <asp:Label runat="server" ID="FileUploadStatus" />
 
+    </p>
 </body>
 </html>

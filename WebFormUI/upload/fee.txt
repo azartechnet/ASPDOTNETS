@@ -1,0 +1,12 @@
+
+Tution Fees:52k
+AdmissionFee:1000+5000
+
+Van
+====
+Term-1--8000(June)
+Term-2--8000(Sep)
+
+Term1--31200(june and july)
+Term2--13(Aug and Sep)
+Term3--7800(Oct and Dec)

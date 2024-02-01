@@ -1,0 +1,60 @@
+1.Console Based Application/Window Based Application
+2.Web Based Application
+3.Android Based Application
+FullStack
+========
+Java
+CoreJava-AdvanceJava-Spring-Hibernate-SpringBoot
+FrontEnd Development
+html-css-javascript-es6-json-jquery-bootstrap+ReactJs+Angular
+
+Backend Development
+mongodb-nodejs-expressjs
+
+Project-1
+=========
+WindowBasedApplication(Java)
+
+Project-2
+=========
+WebApplication(UI)
+
+Project-3
+=========
+ReactJs---->BackEnd
+
+
+Python
+========
+CorePython-html-css-javascript-es6-json-jquery-bootstrap+WebFramework--->PythonDjango---->BackEnd--->(SQL)
+
+Project-1
+=========
+WindowsBasedApplication(Python)
+
+Project-2
+=========
+Django---->BackEnd
+
+MERN
+MEAN
+html-css-javascript-es6-json-jquery-bootstrap+ReactJs+Angular
+mongodb-nodejs-expressjs
+
+
+
+MERN-MEAN
+
+FrondEnd
+html-css-bootstrap-javascript-json-jquery-Reactjs/Angular
+
+M--MongoDb
+E-ExpressJs
+R-ReactJs
+N-NodeJs
+
+M-MongoDb
+E-ExpressJs
+A-Angular
+N-NodeJS
+

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -47,6 +48,41 @@ namespace WebFormsControlls
         protected void LinkButton1_Click(object sender, EventArgs e)
         {
             Label1.Text = "Welcome to the Application";
+        }
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            if((FileUpload1.PostedFile!=null)&&(FileUpload1.PostedFile.ContentLength>0))
+            {
+                string fn=System.IO.Path.GetFileName(FileUpload1.PostedFile.FileName);
+                string SaveLocation = Server.MapPath("upload") + "\\" + fn;
+                try
+                {
+                    FileUpload1.PostedFile.SaveAs(SaveLocation);
+                    FileUploadStatus.Text = "The file has been uploaded";
+                    Console.Write(SaveLocation);
+                }
+                catch(Exception ex) { 
+                   FileUploadStatus.Text=ex.Message;
+                }
+            }
+            else
+            {
+                FileUploadStatus.Text = "Please select file to uploaded";
+            }
+        }
+       protected void Button4_Click(object sender, EventArgs e)
+        {
+            string filePath = "D:\\ASPDOTNETS\\WebFormUI\\upload\\fee.txt";
+            FileInfo file=new FileInfo(filePath);
+            if(file.Exists)
+            {
+                Response.Clear();
+                Response.AddHeader("Content-Disposition", "attachment;filename=" + file.Name);
+            }
         }
     }
 }
