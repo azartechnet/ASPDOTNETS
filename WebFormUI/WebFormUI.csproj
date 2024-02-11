@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CookieExample.aspx" />
+    <Content Include="DataList.aspx" />
+    <Content Include="DropDownList.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="index.aspx" />
     <Content Include="SessionExample1.aspx" />
@@ -80,6 +82,20 @@
     </Compile>
     <Compile Include="CookieExample.aspx.designer.cs">
       <DependentUpon>CookieExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataList.aspx.cs">
+      <DependentUpon>DataList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataList.aspx.designer.cs">
+      <DependentUpon>DataList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DropDownList.aspx.cs">
+      <DependentUpon>DropDownList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DropDownList.aspx.designer.cs">
+      <DependentUpon>DropDownList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
