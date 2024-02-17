@@ -70,6 +70,7 @@
     <Content Include="CookieExample.aspx" />
     <Content Include="DataList.aspx" />
     <Content Include="DropDownList.aspx" />
+    <Content Include="EventHandling.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="index.aspx" />
     <Content Include="SessionExample1.aspx" />
@@ -96,6 +97,13 @@
     </Compile>
     <Compile Include="DropDownList.aspx.designer.cs">
       <DependentUpon>DropDownList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventHandling.aspx.cs">
+      <DependentUpon>EventHandling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventHandling.aspx.designer.cs">
+      <DependentUpon>EventHandling.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
