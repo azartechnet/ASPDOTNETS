@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "N5ZV7Sm5Or5MkAB+kX4MRo8HCDoacndilgpiMm4CbkxhZ5/4jb+TBvPULfuApfFNVt2stvmM8diI10APwhsYZw==",
+  "success": true,
+  "projectFilePath": "D:\\ASPDOTNET\\MVCProjectp1\\MVCProjectp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\azart\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\azart\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\azart\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\azart\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
