@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.OutputCaching;
+
 namespace MVCProjectp1
 {
     public class Program
@@ -25,6 +27,11 @@ namespace MVCProjectp1
             app.UseRouting();
 
             app.UseAuthorization();
+
+            builder.Services.AddResponseCaching();
+            app.UseResponseCaching();
+
+           
 
             app.MapControllerRoute(
                 name: "default",

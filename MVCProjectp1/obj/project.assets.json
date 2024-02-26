@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASPDOTNET\\MVCProjectp1\\MVCProjectp1.csproj",
+      "projectUniqueName": "D:\\ASPDOTNETS\\MVCProjectp1\\MVCProjectp1.csproj",
       "projectName": "MVCProjectp1",
-      "projectPath": "D:\\ASPDOTNET\\MVCProjectp1\\MVCProjectp1.csproj",
+      "projectPath": "D:\\ASPDOTNETS\\MVCProjectp1\\MVCProjectp1.csproj",
       "packagesPath": "C:\\Users\\azart\\.nuget\\packages\\",
-      "outputPath": "D:\\ASPDOTNET\\MVCProjectp1\\obj\\",
+      "outputPath": "D:\\ASPDOTNETS\\MVCProjectp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

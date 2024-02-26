@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OutputCaching;
 using MVCProjectp1.Models;
 using System.Diagnostics;
 
@@ -17,9 +18,10 @@ namespace MVCProjectp1.Controllers
         {
             return View();
         }
-
+        [OutputCache(Duration =3000)]
         public IActionResult Privacy()
         {
+            ViewBag.Current=DateTime.Now.ToString("T");
             return View();
         }
 
